@@ -8,6 +8,7 @@ class Node{
         prev=null;
     }
 }
+// doubly linked list
 class DLLmethods{
     Node head;
     void insertAtEnd(int data){
