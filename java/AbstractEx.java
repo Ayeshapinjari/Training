@@ -31,12 +31,12 @@ class AbstractEx{
 }
 */
 //INTERFACES
- interface A{
+ interface Ab{
      int a=10; // it allow public static final default only // by default variables will be public static final 
     void msg(); // interface not allow constructor
     void msg1();
  }
- class B implements A{
+ class B implements Ab{
     public void msg(){ // public must 
         System.out.println("method 1");
     }
@@ -48,7 +48,7 @@ class AbstractEx{
     public static void main(String[] args) {
         B obj=new B();
         
-        System.out.println(A.a);
+        System.out.println(Ab.a);
         System.out.println(B.a);
         
         obj.msg();
